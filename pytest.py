@@ -6,3 +6,4 @@ print(torch.__version__)
 print(torch.cuda.is_available())
 
 print("testing branch")
+print("goodbye world")
