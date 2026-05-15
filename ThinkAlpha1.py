@@ -1,6 +1,7 @@
 import csv, os 
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 
 file_path = "D:\\Python project\\sample_data.csv"
 
