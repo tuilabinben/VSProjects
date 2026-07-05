@@ -1,0 +1,4 @@
+Activation function,Final train loss,Final val loss,Best val loss,Test MSE,Train time
+ReLU,1.9028,1.5188,1.5188,2.1259,2.1587
+Sigmoid,268.6322,171.2119,171.2119,322.1634,1.2153
+Tanh,243.4446,143.2701,143.2701,298.5969,1.2052

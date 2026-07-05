@@ -1,0 +1,4 @@
+Nodes per layers,Final train loss,Final val loss,Best val loss,Test MSE,Train time
+8,3.5741,3.2506,3.163,3.8969,1.1944
+16,1.9028,1.5188,1.5188,2.1259,1.1799
+32,1.3509,1.2312,1.2312,1.7097,1.1815
