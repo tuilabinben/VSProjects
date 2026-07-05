@@ -8,14 +8,14 @@ from model import FlexibleRegressionMLP
 
 
 def train_model(
-    dataset=y_quadratic,
+    dataset=y_cubic,
     hidden_nodes=64,
     num_layers=2,
     activation_fn=nn.ReLU(),
     learning_rate=0.001,
     epochs=100,
-    show_plot=False,
-    verbose=False
+    show_plot=False, #set to True to visualize the training and prediction plots
+    verbose=False    #set to True to print training progress
 ):
 
     X = torch.FloatTensor(x)
