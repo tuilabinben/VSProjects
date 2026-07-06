@@ -14,7 +14,7 @@ def train_model(
     activation_fn=nn.ReLU(),
     learning_rate=0.001,
     epochs=100,
-    show_plot=False, #set to True to visualize the training and prediction plots
+    show_plot=True, #set to True to visualize the training and prediction plots
     verbose=False    #set to True to print training progress
 ):
 
