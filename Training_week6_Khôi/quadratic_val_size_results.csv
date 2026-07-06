@@ -1,0 +1,4 @@
+val_size,Final train loss,Final val loss,Best val loss,Test MSE,Train time
+0.4,1.9028,1.6363,1.6363,1.9464,1.1944
+0.5,1.9028,1.5188,1.5188,2.1259,1.1748
+0.6,1.9028,1.7342,1.7342,1.9546,1.1785

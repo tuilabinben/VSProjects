@@ -1,0 +1,4 @@
+Batch size,Final train loss,Final val loss,Best val loss,Test MSE,Train time
+8,0.9753,1.1786,1.0076,1.381,4.2821
+32,1.9028,1.5188,1.5188,2.1259,1.159
+128,29.2058,30.7699,30.7699,36.3351,0.3239
