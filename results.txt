@@ -1,0 +1,47 @@
+===== BASELINE =====
+[Quadratic] FINAL Train=0.40659 Val=0.34467
+[Cubic] FINAL Train=26.15963 Val=28.69745
+
+===== EXPERIMENTS =====
+
+----- Quadratic -----
+  ReLU        | Train=0.40659 | Val=0.34467
+  Tanh        | Train=11.17235 | Val=11.53531
+  Sigmoid     | Train=19.51062 | Val=20.57548
+  LR=0.1      | Train=0.23936 | Val=0.23584
+  LR=0.01     | Train=0.26256 | Val=0.24350
+  LR=0.001    | Train=0.40659 | Val=0.34467
+  LR=0.0001   | Train=47.08321 | Val=48.54597
+  1 layers    | Train=20.40561 | Val=20.94112
+  2 layers    | Train=0.40659 | Val=0.34467
+  3 layers    | Train=0.36270 | Val=0.32653
+  4 layers    | Train=0.32429 | Val=0.29302
+  16 nodes    | Train=20.42608 | Val=20.38300
+  32 nodes    | Train=5.09634 | Val=5.14291
+  64 nodes    | Train=0.40659 | Val=0.34467
+  128 nodes   | Train=0.36973 | Val=0.33075
+  50 epochs   | Train=9.52750 | Val=9.12950
+  100 epochs  | Train=0.40659 | Val=0.34467
+  300 epochs  | Train=0.26664 | Val=0.24566
+  800 epochs  | Train=0.24835 | Val=0.23361
+
+----- Cubic -----
+  ReLU        | Train=26.15963 | Val=28.69745
+  Tanh        | Train=136.49706 | Val=152.27650
+  Sigmoid     | Train=164.62570 | Val=182.66623
+  LR=0.1      | Train=0.57485 | Val=0.40572
+  LR=0.01     | Train=1.74234 | Val=1.65167
+  LR=0.001    | Train=26.15963 | Val=28.69745
+  LR=0.0001   | Train=241.04799 | Val=262.65790
+  1 layers    | Train=172.84451 | Val=189.72327
+  2 layers    | Train=26.15963 | Val=28.69745
+  3 layers    | Train=20.53933 | Val=22.14906
+  4 layers    | Train=13.91939 | Val=14.58512
+  32 nodes    | Train=112.61166 | Val=124.69651
+  64 nodes    | Train=26.15963 | Val=28.69745
+  128 nodes   | Train=21.77017 | Val=23.84530
+  512 nodes   | Train=2.97513 | Val=2.98454
+  50 epochs   | Train=135.58104 | Val=147.03775
+  100 epochs  | Train=26.15963 | Val=28.69745
+  300 epochs  | Train=8.59495 | Val=8.93817
+  800 epochs  | Train=0.78310 | Val=0.84861
