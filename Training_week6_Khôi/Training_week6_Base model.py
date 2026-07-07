@@ -11,7 +11,7 @@ import time
 import matplotlib.pyplot as plt
 
 #Import the data
-data = pd.read_csv("D:\\Thinkalpha\\Source code\\Training_week6_Khôi\\cubic_data.csv")
+data = pd.read_csv("cubic_data.csv")
 
 # Create tensor of input features
 x = torch.tensor(data['x'].values, dtype = torch.float).view(-1,1)
